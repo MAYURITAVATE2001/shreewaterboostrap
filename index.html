@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">about us</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <li><a class="dropdown-item" href="#">services</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">emergency services</a></li>
+                            <li><a class="dropdown-item" href="#">Upgrades</a></li>
+                            <li><a class="dropdown-item" href="#">On-site water systems repair</a></li>
+                            <li><a class="dropdown-item" href="#">Hands on water systems training</a></li>
+                            <li><a class="dropdown-item" href="#">Part wash line water systems</a></li>
+                            <li><a class="dropdown-item" href="#">Electroplating water systems</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            solution
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <li><a class="dropdown-item" href="#">solution</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Media filteretion</a></li>
+                            <li><a class="dropdown-item" href="#">water softner</a></li>
+                            <li><a class="dropdown-item" href="#">Deionization</a></li>
+                            <li><a class="dropdown-item" href="#">alctro-Deionization</a></li>
+                            <li><a class="dropdown-item" href="#">Ultraviolet</a></li>
+                            <li><a class="dropdown-item" href="#">cooling tower filteretion</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            resources
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <li><a class="dropdown-item" href="#">Reasources</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">videoes</a></li>
+                            <li><a class="dropdown-item" href="#">gallery</a></li>
+                            <li><a class="dropdown-item" href="#">photoes</a></li>
+                            <li><a class="dropdown-item" href="#">library</a></li>
+                            <li><a class="dropdown-item" href="#">documentetion</a></li>
+                            <li><a class="dropdown-item" href="#">careers</a></li>
+
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">contact us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">Search</button>
+                </form>
+                <div class="mx-2">
+                    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#signupModal">Signup</button>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+    <!--login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login to water equipment</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else</small>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div><br>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Check me out
+                            </label>
+                        </div>
+                    </div><br>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--sign-up Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="sginupModalLabel">Get an water equipment account</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else</small>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div><br>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">ConfirmPassword</label>
+                    </div><br>
+
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Creat account</button>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="image/banner.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="image/slider1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="image/head.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <div class="row featurette d-flex justify-content-center align-items-center">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Products </h2>
+            <p class="lead">
+            <p>Complete Water Solutions is a full-service commercial water treatment company with everything you need to
+                keep your water purified. We are part of the Water Quality Association and have teamed up with major
+                manufacturers to bring you top-of-the-line products and equipment to keep your water treatment system
+                working optimally.</p>
+            <p>
+
+                We provide everything from RO filter units and UV filters to industrial water softeners and Tonkaflo
+                pumps. To keep everything in working order, we have a huge inventory of replacement parts, filters and
+                membranes. You can check out our online catalog to see everything we have to offer.</p>
+            <p>
+
+
+        </div>
+        <div class="col-md-5">
+            <img src="image/ro plant.jpg"
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="600"
+                height="700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x700"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#eee" alt=""></rect>
+
+
+        </div>
+    </div>
+
+    <div class="row featurette d-flex justify-content-center align-items-center">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">WHAT SETS US APART</h2>
+            <p class="lead">
+            <p>We are committed to providing you with top-quality industrial and commercial water treatment services,
+                equipment and products.</p>
+
+            <p>Our team is well-trained and knowledgeable with over 40 years of combined experience. When you need
+                industrial water treatment services, we will work with you every step of the way to ensure you get the
+                support you need — whether it’s for a repair, the replacement of a specific part or the installation of
+                a new system.</p>
+
+            <p>Additionally, all of our paperwork is completed online, making us a paperless operation. We offer our
+                customers access to all of their documents through an online customer portal that allows them to easily
+                access work histories, quotes and job details. This saves everyone time by not having to dig through
+                piles of paperwork and receipts.</p>
+
+
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="image/repair.jpg"
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="600"
+                height="700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x700"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#eee" alt=""></rect>
+
+
+        </div>
+    </div>
+
+    <div class="row featurette d-flex justify-content-center align-items-center">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">RESOURCES AND SUPPORT </h2>
+            <p class="lead">
+            <p>We’re more than an industrial water treatment company — we’re your partner in clean water. At Complete
+                Water Solutions, we are committed to providing you with the guidance and support you need to make the
+                best decisions about your water purification system.</p>
+
+            <p>Our expert team members work to educate you through every step of the process so you understand your
+                system and how it will serve your business. If you ever have any questions about your system, our 24/7
+                phone and video tech support is ready to help you out.</p>
+
+        </div>
+        <div class="col-md-5">
+            <img src="image/solution.jpg"
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="600"
+                height="700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x700"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#eee" alt=""></rect>
+
+        </div>
+    </div>
+
+    <div id="wbc-6156c030f3b3c" class="vc_row wpb_row  icon-boxes full-width-section"
+        style="padding-top: 60px;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row row-inner">
+                <div class="wpb_column vc_column_container vc_col-sm-8 vc_col-sm-offset-2 text-center">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="wbc-heading clearfix">
+                                <h3 class="special-heading-1 wow fadeIn"
+                                    style="margin-bottom: 30px; visibility: visible; animation-name: fadeIn;">Water
+                                    Treatment System<br>
+                                    <span class="wbc-color" style="color:#333333;">Installation and Repair
+                                        Experts</span>
+                                </h3>
+                            </div>
+                            <hr class="wbc-hr wow fadeIn"
+                                style="background-color: white; width: 100px; height: 5px; margin-bottom: 45px; margin-top: 0px; visibility: visible; animation-name: fadeIn;">
+                            <div class="row featurette d-flex justify-content-center align-items-center">
+                                <div class="col-md-7">
+                                    <div class="opacity-50">
+
+                                        <h2 class="featurette-heading">Reverse Osmosis, Water Softeners and DI Water for
+                                            the
+                                            Midwest</h2>
+                                    </div>
+                                    <p class="lead">
+                                    <p>shree water provides comprehensive commercial and industrial water
+                                        treatment equipment in the Midwest.
+                                        Complete Water Solutions is experienced in providing the right solution for any
+                                        water problem.</p>
+                                    <p> We are committed to customer service; consistently completing the job
+                                        efficiently and correctly,
+                                        setting Complete Water Solutions apart from the competition.</p> We care about
+                                    the quality of your water,
+                                    whether it’s for your boiler feed or for your production, great quality water can
+                                    help reduce production loss,
+                                    energy consumption, and down time. Our team of water treatment system installation
+                                    and repair experts are with you every step
+                                    of the way. Whether you run a multi-million dollar manufacturing facility or simply
+                                    need quality water treatment in a single building,
+                                    we treat every job the same, providing you unparalleled service.
+
+                                </div>
+                                <div class="col-md-5">
+                                    <img src="image/plant.jpg"
+                                        class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                                        width="600" height="700" xmlns="http://www.w3.org/2000/svg" role="img"
+                                        aria-label="Placeholder: 500x700" preserveAspectRatio="xMidYMid slice"
+                                        focusable="false">
+                                    <rect width="100%" height="100%" fill="#eee" alt=""></rect>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                    <p class="col-md-4 mb-0 text-muted">© 2021 Company, Inc</p>
+
+                    <a href="/"
+                        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                        <svg class="bi me-2" width="40" height="32">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg>
+                    </a>
+
+                    <ul class="nav col-md-4 justify-content-end">
+                        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+                        <li class="nav-item"><a href="" class="nav-link px-2 text-muted">About</a></li>
+                    </ul>
+                </footer>
+
+                <!-- Optional JavaScript; choose one of the two! -->
+
+                <!-- Option 1: Bootstrap Bundle with Popper -->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+                    crossorigin="anonymous"></script>
+
+                <!-- Option 2: Separate Popper and Bootstrap JS -->
+                <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
